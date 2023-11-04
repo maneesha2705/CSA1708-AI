@@ -125,15 +125,15 @@ for p in cmap:
 while(1):
     num=int(input("Enter number of the color? "))
     print(solveCSP(provinces, num, R, 0))
-
-
-
-
 print(R)
 print(" ================= ")
 print(checkRestriction(["ab",4],"ab",4))
 R = addColor(R, 'bc', 4)
 print(R)
+
+output:
+Enter number of the color? 3
+{'ab': 1, 'bc': 2, 'mb': 1, 'nb': 1, 'ns': 2, 'nl': 1, 'nt': 3, 'nu': 2, 'on': 2, 'pe': 3, 'qc': 3, 'sk': 2, 'yt': 1}
 
 print(" ================= ")
 print(checkRestriction(["ab",4],"ab",4))
