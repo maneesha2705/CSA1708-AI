@@ -161,4 +161,4 @@ final = [ [ 1, 2, 3 ],
 empty_tile_posi = [ 1, 2 ]  
   
  
-solve(initial, empty_tile_posi, final)  
+solve(initial, empty_tile_posi, final)   
